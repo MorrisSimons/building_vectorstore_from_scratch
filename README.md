@@ -26,6 +26,8 @@
     - [ ] a common one like FAISS Search
 ---
 
+#### the dataset we want to use for our vector storehttps://www.kaggle.com/datasets/yorkyong/text8-zip
+
 ### FAISS
 
 **FAISS** (Facebook AI Similarity Search) is an open-source library by Meta (Facebook) for **efficient similarity search** and clustering of high-dimensional vectors.
