@@ -9,7 +9,14 @@
 ## My plan: TODO
 - [ ] **Embeddings:** Train Word2Vec model to generate vector representations.
     - [ ] my own custom made
-    - [ ] A normal one
+        - [ ] Build vocab
+        - [ ] Train a model
+    - [*] A normal one
+
+
+- [ ] **Most of my code will be Word2vec that i will rebuild to Doc2vec**
+
+--- 
 
 - [ ] **Vector Store:** Integrate a vector store library or database, such as FAISS - mabye do from scratch.
     - [ ] my own custom made
