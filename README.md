@@ -11,7 +11,7 @@
     - [ ] my own custom made
         - [ ] Build vocab
         - [ ] Train a model
-    - [*] A normal one
+    - [x] A normal one
 
 
 - [ ] **Most of my code will be Word2vec that i will rebuild to Doc2vec**
