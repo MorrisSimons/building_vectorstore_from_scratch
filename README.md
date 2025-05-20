@@ -9,17 +9,20 @@
 
 ### NOTES
 - word2vec, don't use bigram because its's to compute expensive, only words on low data.
-- Lesson some chunks that are right after each other might not share the similar vector space even though they are from the same document.
+- Lesson some chunks that are right after each other might not share the similar vector space even though they are from the same
 
 ## My plan: TODO
 - [ ] **Embeddings:** Train Word2Vec model to generate vector representations.
-    - [ ] my own custom made
-        - [ ] Build vocab
-        - [ ] Train a model
+    - ~~[ ] my own custom made word2vec - Scrapped, not worth it~~
+        - ~~[ ] Build vocab~~
+        - ~~[ ] Train a model~~
     - [x] A normal one
 
+- [ ] **Built my own custom made doc2vec**
+    - [x] use word2vec to build doc2vec
+    - [x] build the embedding
 
-- [ ] **Most of my code will be Word2vec that i will rebuild to Doc2vec**
+**Most of my code will be Word2vec that i will rebuild to Doc2vec**
 
 --- 
 
