@@ -10,6 +10,7 @@
 ### NOTES
 - word2vec, don't use bigram because its's to compute expensive, only words on low data.
 - Lesson some chunks that are right after each other might not share the similar vector space even though they are from the same
+- How do i test how good my vector databae actually is?
 
 ## My plan: TODO
 - [ ] **Embeddings:** Train Word2Vec model to generate vector representations.
