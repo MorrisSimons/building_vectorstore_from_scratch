@@ -6,6 +6,11 @@
 ![contributors](https://img.shields.io/github/contributors/gpt-null/template)
 ![License](https://img.shields.io/github/license/gpt-null/template)
 ---
+
+### NOTES
+- word2vec, don't use bigram because its's to compute expensive, only words on low data.
+- Lesson some chunks that are right after each other might not share the similar vector space even though they are from the same document.
+
 ## My plan: TODO
 - [ ] **Embeddings:** Train Word2Vec model to generate vector representations.
     - [ ] my own custom made
