@@ -13,19 +13,22 @@
 - How do i test how good my vector databae actually is?
 
 ## My plan: TODO
-- [ ] **Embeddings:** Train Word2Vec model to generate vector representations.
+- [x] **Embeddings:** Train Word2Vec model to generate vector representations.
     - ~~[ ] my own custom made word2vec - Scrapped, not worth it~~
         - ~~[ ] Build vocab~~
         - ~~[ ] Train a model~~
     - [x] A normal one
 
-- [ ] **Built my own custom made doc2vec**
+- [x] **Built my own custom made doc2vec**
     - [x] use word2vec to build doc2vec
     - [x] build the embedding
 
 - [x] **Query/Similarity Function:** Implement a search function to query the vector store and retrieve the most similar vectors to a given input.
     - [x] my own custom made
 
+- [ ] **Find a good way to test and eval and compare with other solutions**
+
+- [ ] **Build a taste2vec** Build it on like netflix ratings or something. Similar to tinvec
 
 --- 
 
