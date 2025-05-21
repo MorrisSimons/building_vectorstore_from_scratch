@@ -14,14 +14,14 @@
 
 ## My plan: TODO
 - [x] **Embeddings:** Train Word2Vec model to generate vector representations.
-    - [x] my own custom made word2vec - Scrapped, not worth it
+    - [x] my own custom made word2vec - trying to do bi-gram
         - [x] Build vocab
         - [x] Train a model
     - [x] A normal one
 
 - [x] **Built my own custom made doc2vec**
-    - [x] use word2vec to build doc2vec
-    - [x] build the embedding
+    - [x] use word2vec to build doc2vec, avg the vectors from the bigram word2vec to make the doc2vec
+    - [ ] build the embedding
 
 - [x] **Query/Similarity Function:** Implement a search function to query the vector store and retrieve the most similar vectors to a given input.
     - [x] my own custom made
