@@ -14,9 +14,9 @@
 
 ## My plan: TODO
 - [x] **Embeddings:** Train Word2Vec model to generate vector representations.
-    - ~~[ ] my own custom made word2vec - Scrapped, not worth it~~
-        - ~~[ ] Build vocab~~
-        - ~~[ ] Train a model~~
+    - [x] my own custom made word2vec - Scrapped, not worth it
+        - [x] Build vocab
+        - [x] Train a model
     - [x] A normal one
 
 - [x] **Built my own custom made doc2vec**
