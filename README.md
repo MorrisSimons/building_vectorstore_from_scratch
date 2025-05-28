@@ -31,12 +31,40 @@
 - [ ] **Build a taste2vec** Build it on like netflix ratings or something. Similar to tinvec
 
 --- 
+## What i learned
+
+Vector databases are not great for exact or ultra-rare word searches (like usernames). They’re optimized for similarity, not exact match. For unique or rare strings, use a classic keyword/text search (e.g., Elasticsearch) or a database index, not a vector search. Vector DBs can miss or “fuzz” exact results. Don’t use them for this case.
 
 
-**Most of my code will be Word2vec that i will rebuild to Doc2vec**
+
+![alt text](./assets/image.png)
+
+
+Skipgram uses a neural network model to learn word embeddings by predicting context words from a center word.
+
+Bigram does not use a model—it’s just counting adjacent word pairs (pure statistics, no learning or embeddings).
+
+#### Bigram:
+
+- Counts or models pairs of consecutive words (e.g., “king is,” “is wise”).
+- Used in classic NLP for statistical language modeling.
+- No “learning” beyond co-occurrence counts.
+
+---
+
+#### Skipgram:
+
+- Trains a model to predict context words given a center word.
+- Example: In “the king is wise,” if “king” is center, model predicts “the,” “is,” etc.
+- Used in word2vec to create word embeddings.
+- Learns semantic similarity.
 
 
 ---
+
+#### Continues bagging
+![alt text](./assets/image-2.png)
+
 
 #### the dataset we want to use for our vector storehttps://www.kaggle.com/datasets/yorkyong/text8-zip
 
