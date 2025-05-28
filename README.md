@@ -8,9 +8,9 @@
 ---
 
 ### NOTES
-- word2vec, don't use bigram because its's to compute expensive, only words on low data.
-- Lesson some chunks that are right after each other might not share the similar vector space even though they are from the same
-- How do i test how good my vector databae actually is?
+- Word2vec, don't use bigram because it's too computationally expensive, only for low data.
+- Some chunks that are right after each other might not share a similar vector space, even though they are from the same
+- How do I test how good my vector database actually is?
 
 ## My plan: TODO
 - [x] **Embeddings:** Train Word2Vec model to generate vector representations.
@@ -21,20 +21,19 @@
 
 - [x] **Built my own custom made doc2vec**
     - [x] use word2vec to build doc2vec, avg the vectors from the bigram word2vec to make the doc2vec
-    - [ ] build the embedding
+    - [ ] Build the embedding
 
 - [x] **Query/Similarity Function:** Implement a search function to query the vector store and retrieve the most similar vectors to a given input.
-    - [x] my own custom made
+    - [x] my own custom-made
 
-- [ ] **Find a good way to test and eval and compare with other solutions**
+- [ ] **Find a good way to test, evaluate and compare with other solutions**
 
-- [ ] **Build a taste2vec** Build it on like netflix ratings or something. Similar to tinvec
+- [ ] **Build a taste2vec** Build it on like Netflix ratings or something. Similar to tinvec
 
 --- 
-## What i learned
+## What I learned
 
 Vector databases are not great for exact or ultra-rare word searches (like usernames). They’re optimized for similarity, not exact match. For unique or rare strings, use a classic keyword/text search (e.g., Elasticsearch) or a database index, not a vector search. Vector DBs can miss or “fuzz” exact results. Don’t use them for this case.
-
 
 
 ![alt text](./assets/image.png)
@@ -55,8 +54,8 @@ Bigram does not use a model—it’s just counting adjacent word pairs (pure sta
 #### Skipgram:
 
 - Trains a model to predict context words given a center word.
-- Example: In “the king is wise,” if “king” is center, model predicts “the,” “is,” etc.
-- Used in word2vec to create word embeddings.
+- Example: In “the king is wise,” if “king” is the center, the model predicts “the,” “is,” etc.
+- Used in Word2vec to create word embeddings.
 - Learns semantic similarity.
 
 
